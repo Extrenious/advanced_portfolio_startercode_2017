@@ -24,76 +24,14 @@
 /* Button CSS */
 
 
-.col-xs-1{
-    
-}
-
-.col-xs-2{
-}
-.col-md-1{
-    border: 1px solid red;
-    color:red;
-}
-
-.col-md-2{
-    border: 1px solid orange;
-    color: orange;
-}
-.col-md-3{
-    border: 1px solid yellow;
-    color:yellow;
-}
-
-.col-md-4{
-    border:1px solid green;
- color:green;
-
-}
-.col-md-5{
-    border:1px solid blue;
-    color:blue;
-    
-}
-
-.col-md-6{
-    border:1px solid purple;
-    color:purple;
-}
-.col-md-7{
-     border:1px solid red;   
-     color:red;
-}
-
-.col-md-8{
-        border:1px solid orange;
-        color:orange;
-}
-.col-md-9{
-        border:1px solid yellow;
-        color:yellow;
-}
-
-.col-md-10{
-        border:1px solid green;
-        color:green;
-}
-.col-md-11{
-        border:1px solid blue;
-        color:blue;
-}
-.col-md-12{    
-    border:1px solid purple;
-    color:purple;
-}
-
 body{
     overflow-x:hidden; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium',  Times, sans-serif;
     color:darkslategray;
 }
 .navbar{
     text-transform: uppercase;
-    background-color: #f8b88b;
+    background-color:#b2cefe;
 }
 .footer .row{
     background-color:#b2cefe;
@@ -103,9 +41,7 @@ body{
 .home-inner{
     background-image: url('https://i.stack.imgur.com/ReAxi.gif');
 }
-.navbar-brand img {
-    height:7rem;
-}
+
 .caption{
     width:100%;
     max-width:100%;
@@ -163,7 +99,11 @@ h3.heading{
           transform: translateZ(0);
   will-change: transform;
 }
-
+.BLURB{
+    background-color:#baed91;
+    color:black;
+    border-color:black;
+}
 
 .PastelRed{color:#fea3aa;}
 .PastelOrange{color:#f8b88b;}
